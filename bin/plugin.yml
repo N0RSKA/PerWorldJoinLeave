@@ -1,0 +1,10 @@
+name: PerWorldJoinLeave
+main: dev.norska.pwjl.PerWorldJoinLeave
+version: Build 3
+author: Norska
+api-version: 1.13
+soft-depend: [PlaceholderAPI]
+commands:
+   perworldjoinleave:
+      description: Main Command for PerWorldJoinLeave
+      aliases: [pwjl]

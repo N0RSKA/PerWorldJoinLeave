@@ -1,0 +1,39 @@
+# PerWorldJoinLeave, a free resource by Norska. https://norska.dev
+# You can find more resources of mine here: https://norska.dev/spigotresources & https://norska.dev/mcmarketresources
+# Support Discord: https://norska.dev/discord
+
+# Notes:
+# 1: If PlaceholderAPI is installed on your server you can use placeholders in the join/leave messages.
+
+updates:
+   notifications: true
+
+settings:
+  world:
+    join:
+    - ''
+    - '$player has joined the world!'
+    #PlaceholderAPI Example- 'The UUID of $player is %player_uuid%'
+    - ''
+    leave:
+    - ''
+    - '$player has left the world!'
+    #PlaceholderAPI Example- 'The UUID of $player is %player_uuid%'
+    - ''
+  world_nether:
+    join:
+    - ''
+    - '$player has joined the nether!'
+    #PlaceholderAPI Example- 'The UUID of $player is %player_uuid%'
+    - ''
+    leave:
+    - ''
+    - '$player has left the nether!'
+    #PlaceholderAPI Example- 'The UUID of $player is %player_uuid%'
+    - ''
+    
+messages:
+   reload:
+   - '&ePerWorldJoinLeave &f» &7The config was reloaded (took &e$msms&7)!'
+   noPermission:
+   - '&ePerWorldJoinLeave &f» &7You do not have permission!'
